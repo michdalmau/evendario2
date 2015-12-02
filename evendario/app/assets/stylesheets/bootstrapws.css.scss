@@ -1,0 +1,73 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,latin-ext);
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.footer_list li{
+  display: inline;
+  margin-left: 25px;
+font-family: 'Roboto', sans-serif;
+}
+.area_busqueda{
+  width: 450px;
+  vertical-align: middle;
+  border-radius: 0px;
+}
+
+.container .text-muted {
+  margin: 20px;
+  margin-right: 10px;
+}
+
+.jumbotronfull {
+  width: 100%;
+  padding: 0;
+
+}
+
+.jumbocentro {
+  margin: 0, auto;
+
+}
+
+.datepicker {
+  font-size: 10px;
+}
+#date2 p {
+  font-size: 40px;
+  color: red;
+}
+
+.signinbloc{
+  margin-top: 100px;
+  border-style: solid black 2px;
+  text-align: center;
+  display: block;
+  width: 300px;
+  margin: auto;
+  background-color: white;
+
+}
+.centroforma{
+  display: inline-block;
+}
+
+.formsignin{
+  text-align: left;
+  margin:auto;
+  display: block;
+  background-color: blue;
+  width: 80%;
+}
+
+.form70{
+  border: 2px black;
+}
